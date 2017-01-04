@@ -78,7 +78,7 @@ int main()
  #define FMACRO3() 1
  
  int MSVC_number_one = FMACRO1(FMACRO2);
-
+ (void)MSVC_number_one;
 #endif
  
  #define FMACRO4() ( any_number_of_tuple_elements )
