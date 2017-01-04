@@ -8,6 +8,10 @@
 #include <boost/vmd/not_equal.hpp>
 #include <boost/detail/lightweight_test.hpp>
 
+#if BOOST_VMD_MSVC
+#pragma warning(disable: 4002) // too many actual parameters for macro
+#endif
+
 int main()
   {
   
